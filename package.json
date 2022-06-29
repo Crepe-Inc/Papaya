@@ -1,0 +1,22 @@
+{
+  "name": "papaya",
+  "version": "1.0.0",
+  "description": "client imitation for debugging purposes",
+  "main": "index.js",
+  "scripts": {
+    "buildp": "node ./backend/protocol/build.mjs",
+    "reexport": "node ./backend/protocol/reexport.mjs"
+  },
+  "author": "TheLostTree",
+  "license": "ISC",
+  "dependencies": {
+    "@protobuf-ts/plugin": "^2.7.0",
+    "bluebird": "^3.7.2",
+    "node-kcp-token": "github:TheLostTree/node-kcp",
+    "svelte": "^3.48.0",
+    "ts-node": "^10.8.1"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0"
+  }
+}
